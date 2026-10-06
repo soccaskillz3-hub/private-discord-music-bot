@@ -4,6 +4,14 @@ A Discord music bot with **owner-controlled access**: only members the server ow
 authorizes can control playback. Built for small servers that want a shared music bot
 without letting anyone hijack the queue.
 
+## Why I Built This
+
+I own a Discord server that grew from a group of friends to over 100 members, mostly friends of friends.
+With that growth came pranks: the public music bots we relied on kept getting removed or hijacked, and they
+crashed often enough that music barely worked. Waiting on someone else's dev team for fixes wasn't working,
+so I built my own bot where only members I authorize can control playback, and where I can fix bugs myself
+as soon as they show up.
+
 ## Features
 
 - **Access control:** the owner grants and revokes permission per user, stored in SQLite
